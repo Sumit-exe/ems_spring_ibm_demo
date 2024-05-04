@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+</head>
+
+<body>
+	<h1>User Data</h1>
+	<p th:text="|Hello, ${firstName}!|" />
+	
+	<form>
+		<label>First Name : </label>
+		<input placeholder="Enter FirstName" name="firstname"/>
+		
+		<label>	Email : </label>
+		<input placeholder="Enter Email" name="email"/>
+		
+		<label>Age  : </label>
+		<input placeholder="Enter Age" name="age"/>
+		
+		<label>Aadhaar : </label>
+		<input placeholder="Enter Aadhaar No" name="aadhaar"/>
+		
+		<label>Salary : </label>
+		<input placeholder="Enter Salary" name="salary"/>
+		
+	</form>
+</body>
+
+</html>
